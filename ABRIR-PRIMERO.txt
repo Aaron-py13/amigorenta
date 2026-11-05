@@ -1,0 +1,33 @@
+AMIGO RENTALS — HISTORIA ARRIBA + AVIÓN 3D
+
+Extrae TODO el ZIP y abre index.html con Chrome o Edge.
+Orden: Inicio → Historia desde 2007 → Propiedades → Servicios → Contacto.
+Se eliminó Hagámoslo simple y sus enlaces del menú.
+
+Al bajar, la historia permanece fija y el texto se revela palabra por palabra.
+En Servicios, un avión 3D generado con WebGL gira mientras entran tres tarjetas.
+Al subir, la secuencia se invierte. Sin WebGL aparece un avión vectorial alternativo.
+Se respeta la preferencia de movimiento reducido del sistema.
+Con movimiento pausado todas las tarjetas y textos permanecen visibles.
+
+Nuevos archivos: flight.css y flight.js.
+Se conserva el logo, las 37 fotos, los filtros y las galerías.
+Precios, disponibilidad, depósitos y condiciones siguen siendo DATOS DE EJEMPLO.
+No se publicó la web ni se envían mensajes automáticamente.
+
+Comprobaciones: archivos y enlaces, sintaxis, escenas, filtros, galerías, geometría
+3D finita y secuencia de tarjetas con pruebas simuladas.
+La revisión visual real en navegador y GPU sigue pendiente; no se afirma compatibilidad
+visual comprobada en dispositivos reales.
+
+CORRECCIÓN DE HISTORIA: primero se ven las postales; después salen completamente (izquierda, arriba y derecha). Solo entonces aparece el texto grande centrado. Al subir se invierte. Revisada la secuencia de visibilidad con pruebas de lógica; comprobación visual real pendiente.
+
+ACTUALIZACIÓN: el avión WebGL anterior fue reemplazado por el video realista aprobado. El scroll controla el video y resalta cada tarjeta. Incluye MP4 y poster locales. Pruebas de sincronización pasadas; revisión visual real pendiente.
+
+ACTUALIZACIÓN NOSOTROS: cuatro tarjetas para estudiantes, trabajadores, agencias y servicios complementarios, después de la historia. Incluye iconos, enlaces de consulta y entrada escalonada. El video del avión y la salida de postales se conservan. Revisión visual en navegador pendiente.
+
+FICHAS ACTUALIZADAS: tarjetas medianas y fotos automáticas cada 4,5 s. Interior: detalles (2 habitaciones/1 baño de ejemplo por vivienda), descripción breve y mapa con dirección. Fotos automáticas también dentro; sin flechas, contador ni botón de pausa. Datos editables en data.js. Mapas necesitan internet. Revisión visual real pendiente.
+
+Ficha ajustada: fotografía ampliada para aprovechar la columna, con cambio automático cada 4,5 segundos.
+
+Catálogo: filtros Vancouver y Burnaby (Vancouver inicial), parallax en fotografías, entrada escalonada y perspectiva suave al mover el cursor. Botón Maps renovado. Se respeta movimiento reducido.
